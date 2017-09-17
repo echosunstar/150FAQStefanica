@@ -38,6 +38,22 @@
 \newcommand{\icode}{\texttt}
 \newcommand{\cicode}[1]{\colorbox{highlightgray}{\lstinline[basicstyle=\ttfamily\color{black}]|#1|} }
 
+%% dateformat
+\usepackage[ddmmyy]{datetime}
+
+\makeatletter
+\def\today{%
+	\two@digits{\the\day}-%
+	\ifcase\month\or%
+	Jan\or Feb\or Mar\or Apr\or May\or Jun\or%
+	Jul\or Aug\or Sep\or Oct\or Nov\or Dec\fi-%
+	\number\year%
+}
+\makeatother
+
+%% 0 and 1 with double-bar
+\usepackage[bb=boondox]{mathalfa}
+
 \DeclareRobustCommand{\hly}[1]{{ 
 		\colorlet{highlightyellow}{Salmon!30}
 		\sethlcolor{highlightyellow} 
@@ -268,6 +284,9 @@ leftmargin=6mm,rightmargin=6mm,skipbelow=1mm,skipabove=1mm,
 \newcommand{\myint}{\scaleint{4ex}}
 \newcommand{\mybint}{\scaleint{7ex}}
 \newcommand{\mybbint}{\scaleint{9ex}}
+
+
+
 \newcommand{\sech}{ \operatorname{sech} }
 \newcommand{\rpm}{\raisebox{.2ex}{$\scriptstyle\pm$}}
 
@@ -288,7 +307,10 @@ leftmargin=6mm,rightmargin=6mm,skipbelow=1mm,skipabove=1mm,
 
 \begin{spacing}{0.1}
 	
-\section{2 put options , K=20,30 trading for \$4,\$6 - find arbitrage}
+\section{Introduction}
+\begin{itemize}
+
+\item \hl{2 put options , K=20,30 trading for \$4,\$6 - find arbitrage}
 \begin{itemize}
 	\item 2x6-3x4=0, so try  $2{(20-S)}^+ - 3{(30-S)}^+ > 0 $
 	\item 
@@ -313,7 +335,7 @@ ymajorgrids=true,xmajorgrids=true,grid style=dashed]
 \end{tikzpicture}
 
 
-\section{$2^{29}$ has 9 digits all different - find missing digit}
+\item \hl{$2^{29}$ has 9 digits all different - find missing digit}
 \begin{itemize}
 \item key: 9 divides [n - Sum(digits n)]
 \item \textbf{Proof}: $n=a_n 10^n + a_{n-1} 10^{n-1}+ \ldots + a_{1} 10^{1} + a_0 $
@@ -327,20 +349,21 @@ ymajorgrids=true,xmajorgrids=true,grid style=dashed]
 \item $9|(45-x-2^5)=(45-x-32)=(13-x)$ so $x=4$
 \end{itemize}
 
-\section{$\int_0^T W_t dt$ - what is distribution ? is it martingale ?}
+\item \hl{$\int_0^T W_t dt$ - what is distribution ? is it martingale ?}
 \begin{itemize}
 \item $X_T=\int_0^T W_t dt \Leftrightarrow dX_t=W_tdt+0.dW_t$ =  only drift so not martingale
 \item $dX_t=W_tdt \Leftrightarrow X_T=\int_0^T W_t dt \Leftrightarrow X_T = [W_tt]_0^T - \int_{0}^{T}tdW_t = TW_T- \int_{0}^{T}tdW_t = T\int_{0}^{T}dW_t - \int_{0}^{T}tdW_t  = \int_{0}^{T} (T-t) dW_t$
 \item Recall stochastic integral \colorbox{green!10}{ $\int_0^T f(t)dW_t \sim N(0,\int_{0}^{T}{|f(t)|}^2 dt)$}
 \item $X_T=\int_{0}^{T} (T-t) dW_t \sim N(0,\int_0^T {|T-t|}^2)dt=N(0,{T^3 \over 3})$
 \end{itemize}
-\section{Alice sends 20 ants towards Bob in straight line, Bob 50 towards Alice in straight line. Ants collide and go back. How many reach Bob? Alice ? How many collisions ?}
+
+\item \hl{Alice sends 20 ants towards Bob in straight line, Bob 50 towards Alice in straight line. Ants collide and go back. How many reach Bob? Alice ? How many collisions ?}
 \begin{itemize}
 \item imagine ants carry a flag and pass it on. so 50 reach Alice and 20 reach Bob.
 \item num collisions: each of Bob's 50 flags must go though 20 collisions to reach Alice, each of Alice's 20 flags goes through 50 collisions to reach Bob: 2x 50 x 20 = 2000 collisions
 \end{itemize}
 
-\section {find all $p$ such that this is a collrelation matrix} $\Omega = \begin{bmatrix} 1 & 0.6 & -0.3 \\  0.6 & 1 & p \\  -0.3 & p & 1 \end{bmatrix}$
+\item \hl{find all $p$ such that this is a collrelation matrix} $\Omega = \begin{bmatrix} 1 & 0.6 & -0.3 \\  0.6 & 1 & p \\  -0.3 & p & 1 \end{bmatrix}$
 \begin{itemize}
 \item $\Omega$ correlation matrix $ \Leftrightarrow \Omega$ symmetric positive definite
 \item \textbf{Sylvester}, \textbf{Cholesky} , \textbf{definition}
@@ -355,12 +378,12 @@ ymajorgrids=true,xmajorgrids=true,grid style=dashed]
 \item $\begin{cases} 1-p^2 > 0 \\ 0.55 -0.36p -p^2 >0 \end{cases}$
 \end{itemize}
 
-\section {how many draws N of U[0,1] such that $P(0.7 < U[0,1] < 0.72) \ge 0.95$ for one $U[0,1]$}
+\item \hl{how many draws N of U[0,1] such that $P(0.7 < U[0,1] < 0.72) \ge 0.95$ for one $U[0,1]$}
 \begin{itemize}
 \item P(none of the N rv in $[0.7,0.72]$)=${0.98}^N \rightarrow $ P(at least one in [0.7,0.72]) = $1-{0.98}^N$ and solve $1-{0.98}^N \ge 0.95$
 \end{itemize}
 
-\section {prove pdf of N(0,1) is $: \int \text{pdf}=1$}
+\item \hl{prove pdf of N(0,1) is $: \int \text{pdf}=1$}
 \begin{itemize}
 \item $\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} \exp(-{x^2 \over 2}) dx$ substitute $x^2/2 = t \rightarrow dx = \sqrt{(2)}dt \rightarrow $ need prove $ I := \int_{-\infty}^{+\infty} \exp(-{t^2}) dt = \sqrt{\pi } $
 
@@ -369,17 +392,19 @@ ymajorgrids=true,xmajorgrids=true,grid style=dashed]
 \item $I^2=\int_{0}^{+\infty}\int_{0}^{+2\pi} \exp(-r^2)rdrd\theta = 2\pi\int_{0}^{+\infty} \exp(-r^2)rdr = 2\pi {[{-1 \over 2}\exp(-r^2)]}_0^{+\infty}=\pi \rightarrow I= \sqrt{\pi} $
 \end{itemize}
 
-\section {walk 1m south, 1m east, 1m north, then back at same point - where are you o Earth?}
+\item \hl{walk 1m south, 1m east, 1m north, then back at same point - where are you o Earth?}
 \begin{itemize}
 \item find latitute near south Pole such that round-the-world=1m. then any point 1m north of this works
 \item also any latitude near south Pole such that round-the-world=$1\over k$ works (go round the world k times but still end up same point)
 \end{itemize}
 
-\section {solve Oernstein-Uhlenbeck SDE - Vasicek for IR}
+\item \hl{solve Oernstein-Uhlenbeck SDE - Vasicek for IR}
 \begin{itemize}
 \item $dr_t=\lambda(\theta-r_t)dt + \sigma dW_t \rightarrow dr + \lambda r_t dt=\lambda \theta dt + \sigma dW_t \myright {$\times e^{\lambda t}$} e^{\lambda t}(dr + \lambda r_t dt)=e^{\lambda t} (\lambda \theta dt + \sigma dW_t) \rightarrow d(r_t e^{\lambda t} ) = e^{\lambda t} (\lambda \theta dt + \sigma dW_t) \rightarrow {[r_t e^{\lambda t}]}_0^t = \int_{0}^t \lambda \theta e^{\lambda s} ds + \int_{0}^t \sigma e^{\lambda s}dW_s \rightarrow r_t e^{\lambda t}-r_0 = \theta (e^{\lambda t}-1) + \sigma \int_{0}^t  e^{\lambda s}dW_s \rightarrow r_t = e^{-\lambda t}r_0 + \theta (1-e^{-\lambda t}) + \sigma \int_{0}^t e^{-\lambda(s-t)} dW_s$ and that is it.
 \item note however $E( \int_{0}^t f(s)dW_s)$ = "sum of N(0,.)"=0 so $E(r_t)= e^{-\lambda t}r_0 + \theta (1-e^{-\lambda t}) $ which $\rightarrow \theta$ as $r \uparrow +\infty$ "mean reverting"
 \end{itemize}
+\end{itemize}
+
 \hrule
 
 \section {Calculus}
@@ -793,7 +818,43 @@ p& p & p & 1 \\ p& p & p & 1
 \item \cicode{T temp\_sum (T a, T b) return \{a+b;\} } // accepts 2 Ts, return a+b , which is also a T
 \end{itemize}
 
+\item \hl{find max subarray of +ve numbers-- check Kadane algorithm}
+\begin{itemize}[label={}]
+	\item \cicode{max\_ending += a[i];}
+	\item \cicode{max\_ending\_hr = max(0,max\_ending\_hr)}
+	\item \cicode{max\_so\_far = max(0,max\_ending\_here)} // keep track of largest so far	
 \end{itemize}
+
+\item \hl{Reverse a linked list}
+\begin{itemize}[label={}]
+	\item \cicode{max\_ending += a[i];}
+	\item \cicode{max\_ending\_hr = max(0,max\_ending\_hr)}
+	\item \cicode{max\_so\_far = max(0,max\_ending\_here)} // keep track of largest so far	
+\end{itemize}
+
+\end{itemize}
+
+\hrule
+\section {MC simulation}
+
+\begin{itemize}
+	
+\item \hl{How to estimate $\pi$ ? what is the variance of your method ?}
+\begin{itemize}
+	\item Acceptance-Rejection on $\pi R^2$ in an $2R \times 2R$ square with $R=1$
+	\begin{itemize}
+	\item $\frac{\pi 1^2}{2 \times 2}=\frac{\pi}{4}= \frac{A}{N}$
+	\item N = num points tried altogether
+	\item A = num accepted points
+	\end{itemize}
+	\item $X_i = \mathbb{1}_{D(0,R=1)} (U_i)$ with $U_i \myeq{uniform} [-1,1] \times [-1,1]$ 
+	\item $\myE{X_i} = \myE{\mathbb{1}_{D(0,R=1)} (U_i)} \\ =\iint\limits_{D(0,R=1)} \frac{1}{4}  \dif x \dif y = \frac{\pi}{4} $ 
+	\item  for variance note $X^2_i \equiv X_i$ since indicator variable !
+	\item so $var \mylp \dfrac{\sum X_i}{N}\myrp  \\= \frac{1}{N^2} \sum_1^N var(X_i) \\= \frac{1}{N^2} \sum_1^N \mylp \myE{X_i^2} - {\myE{X_i}}^2 \myrp \\= \frac{N}{N^2} \mylp \frac{\pi}{4} - {(\frac{\pi}{4})}^2 \myrp $ 
+\end{itemize}
+
+\end{itemize}
+
 
 \end{spacing}
 \end{multicols*}
