@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.24)  17 SEP 2017 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.24)  17 SEP 2017 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2273,65 +2273,89 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen304
 \SOUL@ulht=\dimen305
 )
-\pgf@layerbox@background=\box113
-\pgf@layerboxsaved@background=\box114
+(d:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count274
+\lst@gtempboxa=\box113
+\lst@token=\toks53
+\lst@length=\count275
+\lst@currlwidth=\dimen306
+\lst@column=\count276
+\lst@pos=\count277
+\lst@lostspace=\dimen307
+\lst@width=\dimen308
+\lst@newlines=\count278
+\lst@lineno=\count279
+\lst@maxwidth=\dimen309
+
+(d:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count280
+\lst@skipnumbers=\count281
+\lst@framebox=\box114
+)
+(d:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+\pgf@layerbox@background=\box115
+\pgf@layerboxsaved@background=\box116
 
 (./Stefanica-150QuantInterviewsections.aux)
 \openout1 = `Stefanica-150QuantInterviewsections.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 277.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 277.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 280.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 280.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 277.
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 277.
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 277.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 277.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 280.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 280.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 277.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 277.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 280.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 280.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 277.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 277
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 280.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 280
 .
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 277.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 277.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 280.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 280.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 277.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 277.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 280.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 280.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 277.
-LaTeX Font Info:    Try loading font information for T1+jkp on input line 277.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Try loading font information for T1+jkp on input line 280.
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
@@ -2339,17 +2363,17 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 ABD: EveryShipout initializing macros
 (d:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen306
-\scratchbox=\box115
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen307
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count282
+\scratchdimen=\dimen310
+\scratchbox=\box117
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen311
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks55
 ) (d:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2401,8 +2425,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box116
-LaTeX Info: Redefining \microtypecontext on input line 277.
+\AtBeginShipoutBox=\box118
+LaTeX Info: Redefining \microtypecontext on input line 280.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2416,31 +2440,32 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkp' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\Hy@linkcounter=\count280
+\Hy@linkcounter=\count288
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 277.
+ on input line 280.
 
-\GPT@outputbox=\box117
+\c@lstlisting=\count289
+\GPT@outputbox=\box119
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
-ut line 288.
+ut line 291.
 (d:/texlive/2016/texmf-dist/tex/latex/sourcesanspro/t1sourcesanspro-lf.fd
 File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 288.
+(Font)              scaled to size 10.0pt on input line 291.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `SourceSansPro-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 288.
+(Font)              scaled to size 9.0pt on input line 291.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 288.
-LaTeX Font Info:    Try loading font information for TS1+jkp on input line 290.
+(Font)              scaled to size 9.0pt on input line 291.
+LaTeX Font Info:    Try loading font information for TS1+jkp on input line 293.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
@@ -2450,7 +2475,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkp' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 290.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 293.
 
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
@@ -2460,13 +2485,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `jkp' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 290
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 293
 .
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 290.
+LaTeX Font Info:    Try loading font information for U+msa on input line 293.
 
 (d:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2474,7 +2499,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (d:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 290.
+LaTeX Font Info:    Try loading font information for U+msb on input line 293.
 
 (d:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2482,62 +2507,62 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (d:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 290
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 293
 .
 
 (d:/texlive/2016/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 290.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 293.
 
 (d:/texlive/2016/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-Underfull \hbox (badness 5161) in paragraph at lines 330--331
+Underfull \hbox (badness 5161) in paragraph at lines 333--334
 \OT1/jkp/m/n/10 (+20) [\OML/jkp/m/it/10 W[]t\OT1/jkp/m/n/10 (+20) ][] \OMS/jkp/
 m/n/10 ^^@ [][] \OML/jkp/m/it/10 tdW[] \OT1/jkp/m/n/10 (+20) = \OML/jkp/m/it/10
  TW[] \OMS/jkp/m/n/10 ^^@ [][] \OML/jkp/m/it/10 tdW[] \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 []\T1/jkp/m/n/10 (+20) Recall stochastic in-teg-ral
  []
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 332.
+(amsmath)                 on input line 335.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 []\T1/jkp/m/n/10 (+20) remove $[]\OMS/jkp/m/n/10 ; ! [] \U/jkpmia/m/it/10 
  \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 [] [] \OMS/jkp/m/n/10 !
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 [] \OMS/jkp/m/n/10 !$[] \T1/jkp/m/n/10 (+20) +
  []
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 7.6pt on input line 360.
+(Font)              scaled to size 7.6pt on input line 363.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 360.
+(Font)              scaled to size 6.0pt on input line 363.
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 []$[][] [][] []\OT1/jkp/m/n/10 (+20) (\OMS/jkp/m/n/10 ^^@[]\OT1/jkp/m/n/10 (+20
 ) )\OML/jkp/m/it/10 dx$[] \T1/jkp/m/n/10 (+20) sub-sti-tute $[]\OML/jkp/m/it/10
  x[]=\OT1/jkp/m/n/10 (+20) 2 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 []$[]\OML/jkp/m/it/10 I[] \OT1/jkp/m/n/10 (+20) = [][] [](\OMS/jkp/m/n/10 ^^@[]
 \OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 dx [][] []\OT1/jkp/m/n/10 (+20) (\OMS/j
 kp/m/n/10 ^^@[]\OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 dy \OT1/jkp/m/n/10 (+20)
@@ -2545,62 +2570,62 @@ kp/m/n/10 ^^@[]\OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 dy \OT1/jkp/m/n/10 (+20)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 []$[]\OML/jkp/m/it/10 I[] \OT1/jkp/m/n/10 (+20) = [][] [][] [](\OMS/jkp/m/n/10 
 ^^@\OML/jkp/m/it/10 r[]\OT1/jkp/m/n/10 (+20) )\OML/jkp/m/it/10 rdrd^^R \OT1/jkp
 /m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 [][] [][] []\OML/jkp/m/it/10 dx < [][] [][] []dx \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 []\T1/jkp/m/n/10 (+20) compute $[][]\OT1/jkp/m/n/10 (+20) ?$[] \T1/jkp/m/n/10 (
 +20) sub-sti-tute $[]\OML/jkp/m/it/10 x \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 []\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 z\OT1/jkp/m/n/10 (+20) ) = []$[] \T1/
 jkp/m/n/10 (+20) so $[]\OML/jkp/m/it/10 dx \OT1/jkp/m/n/10 (+20) = []\OML/jkp/m
 /it/10 dz\OT1/jkp/m/n/10 (+20) [=
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\T1/jkp/m/n/10 (+20) compute $[][]\OT1/jkp/m/n/10 (+20) ?$[] $[][] \OML/jkp/m
 /it/10 x []\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 x\OT1/jkp/m/n/10 (+20) )\OML
 /jkp/m/it/10 dx \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 []\T1/jkp/m/n/10 (+20) compute $[][]$[] $[][] \OML/jkp/m/it/10 x[] [] x dx \OT1
 /jkp/m/n/10 (+20) =
  []
 
 
-Overfull \hbox (9.36627pt too wide) in paragraph at lines 422--424
+Overfull \hbox (9.36627pt too wide) in paragraph at lines 425--427
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 []$[][] \OT1/jkp/m/n/10 (+20) = \OML/jkp/m/it/10 cov\OT1/jkp/m/n/10 (+20) (\OML
 /jkp/m/it/10 X[]; X[]\OT1/jkp/m/n/10 (+20) ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 \U/jkpmia/m/it/10 ^^F[]\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 k; j\OT1/jkp/m/n
 /10 (+20) )$[] \T1/jkp/m/n/10 (+20) and $[][] \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 \OML/jkp/m/it/10 corr\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 X[]; X[]\OT1/jkp/m
 /n/10 (+20) ) = \U/jkpmia/m/it/10 
 \OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 k; j\OT1/jkp/m/n/10 (+20) )$[]\T1/jkp/m
@@ -2608,7 +2633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 426.
+ mdframed uses option nobreak mdframed on input line 429.
 
 Overfull \vbox (8.66585pt too high) has occurred while \output is active []
 
@@ -2616,25 +2641,25 @@ Overfull \vbox (8.66585pt too high) has occurred while \output is active []
 [1
 
 {d:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 [][]\OML/jkp/m/it/10 ; i \OMS/jkp/m/n/10 2 \OT1/jkp/m/n/10 (+20) 1\OML/jkp/m/it
 /10 ::n$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 \T1/jkp/m/n/10 (+20) and $[]\OML/jkp/m/it/10 w[]\U/jkpmia/m/it/10 ^^F[]\OML/jkp
 /m/it/10 w \OT1/jkp/m/n/10 (+20) = \OML/jkp/m/it/10 w[]D[]\U/jkpmia/m/it/10 
 []\OML/jkp/m/it/10 D[]w \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Overfull \hbox (2.93713pt too wide) in paragraph at lines 439--440
+Overfull \hbox (2.93713pt too wide) in paragraph at lines 442--443
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 443--444
+Underfull \hbox (badness 5696) in paragraph at lines 446--447
 \OT1/jkp/m/n/10 (+20) (1 \OMS/jkp/m/n/10 ^^@ \OML/jkp/m/it/10 p\OT1/jkp/m/n/10 
 (+20) )\OML/jkp/m/it/10 v \OT1/jkp/m/n/10 (+20) + \OML/jkp/m/it/10 p^^Uv \OT1/j
 kp/m/n/10 (+20) = (1 \OMS/jkp/m/n/10 ^^@ \OML/jkp/m/it/10 p \OT1/jkp/m/n/10 (+2
@@ -2643,97 +2668,121 @@ m/n/10 (+20) so
  []
 
 
-Overfull \hbox (6.95975pt too wide) in paragraph at lines 456--457
+Overfull \hbox (6.95975pt too wide) in paragraph at lines 459--460
 [][][][][][][] 
  []
 
 
-Overfull \hbox (1.98174pt too wide) in paragraph at lines 475--477
+Overfull \hbox (1.98174pt too wide) in paragraph at lines 478--480
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 486--487
+Underfull \hbox (badness 5147) in paragraph at lines 489--490
 []\T1/jkp/m/n/10 (+20) no solu-tion since $[]\OML/jkp/m/it/10 trace\OT1/jkp/m/n
 /10 (+20) (\OML/jkp/m/it/10 AB \OMS/jkp/m/n/10 ^^@ \OML/jkp/m/it/10 BA\OT1/jkp/
 m/n/10 (+20) ) =
  []
 
 
-Overfull \hbox (9.65285pt too wide) in paragraph at lines 495--496
+Overfull \hbox (9.65285pt too wide) in paragraph at lines 498--499
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 []\T1/jkp/b/n/10 Definition $[]\OML/jkp/m/it/10 x[]\U/jkpmia/m/it/10 
 \OML/jkp/m/it/10 x \OMS/jkp/m/n/10 ^^U \OT1/jkp/m/n/10 (+20) 0 \OMS/jkp/m/n/10 
 8\OML/jkp/m/it/10 x$[] \T1/jkp/m/n/10 (+20) ie
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 501--502
+Underfull \hbox (badness 5787) in paragraph at lines 504--505
 \OT1/jkp/m/n/10 (+20) 2\OML/jkp/m/it/10 ^^Zx[]x[] \OMS/jkp/m/n/10 ^^U \OT1/jkp/
 m/n/10 (+20) 0$[] \T1/jkp/m/n/10 (+20) then com-plete squares
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 [][] [][][]\T1/jkp/m/n/10 (+20) 3[] [][][]put[] [][][]op[]-[]tions[] [][][](str
 ike=K,Price(K))=[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 []\T1/jkp/m/n/10 (+20) (here) O=ATM put , ATM means
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 []\T1/jkp/m/n/10 (+20) Set up port-fo-lio $[]\U/jkpmia/m/it/10 ^^E \OT1/jkp/m/n
 /10 (+20) = +1$[] \T1/jkp/m/n/10 (+20) Op-tion
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 540--541
+Underfull \hbox (badness 6559) in paragraph at lines 543--544
 \T1/jkp/m/n/10 (+20) + $[]\OT1/jkp/m/n/10 (+20) (\OMS/jkp/m/n/10 ^^@\OT1/jkp/m/
 n/10 (+20) 1)\U/jkpmia/m/it/10 ^^A[]$[] \T1/jkp/m/n/10 (+20) Stock with $[]\U/j
 kpmia/m/it/10 ^^A[] \OT1/jkp/m/n/10 (+20) =
  []
 
 
-Overfull \hbox (2.61652pt too wide) in paragraph at lines 542--543
+Overfull \hbox (2.61652pt too wide) in paragraph at lines 545--546
 []$[]\U/jkpmia/m/it/10 ^^E\OT1/jkp/m/n/10 (-20) (\OML/jkp/m/it/10 T\OT1/jkp/m/n
 /10 (-20) ) = []$[] 
  []
 
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 558.
+ mdframed uses option nobreak mdframed on input line 561.
 
 Overfull \vbox (8.66585pt too high) has occurred while \output is active []
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
 []$[]\OML/jkp/m/it/10 N\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 x\OT1/jkp/m/n/10
  (+20) ) = [] [][] \OML/jkp/m/it/10 e[] []  \OT1/jkp/m/n/10 (+20) d\OML/jkp/m/i
 t/10 z \OT1/jkp/m/n/10 (+20) = 0\OML/jkp/m/it/10 :\OT1/jkp/m/n/10 (+20) 5 +
  []
 
+LaTeX Font Info:    Try loading font information for T1+jkptt on input line 769
+.
+(d:/texlive/2016/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `jkptt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 763.
-[3] (./Stefanica-150QuantInterviewsections.aux) ) 
+ mdframed uses option nobreak mdframed on input line 786.
+
+Overfull \vbox (8.66585pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \hbox (4.5218pt too wide) in paragraph at lines 793--794
+[][][][][][][]
+ []
+
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 799.
+
+Overfull \vbox (2.89886pt too high) has occurred while \output is active []
+
+
+[4] (./Stefanica-150QuantInterviewsections.aux) ) 
 Here is how much of TeX's memory you used:
- 41137 strings out of 493013
- 951258 string characters out of 6136993
- 1239726 words of memory out of 5000000
- 43783 multiletter control sequences out of 15000+600000
- 132520 words of font info for 223 fonts, out of 8000000 for 9000
+ 42762 strings out of 493013
+ 972639 string characters out of 6136993
+ 1247726 words of memory out of 5000000
+ 45385 multiletter control sequences out of 15000+600000
+ 133847 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,96p,10448b,1895s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2016/texmf-dist/fo
-nts/enc/dvips/kpfonts/kpfonts-expert.enc}{d:/texlive/2016/texmf-dist/fonts/enc/
-dvips/base/8r.enc}{d:/texlive/2016/texmf-dist/fonts/enc/dvips/sourcesanspro/a_g
+nts/enc/dvips/base/8r.enc}{d:/texlive/2016/texmf-dist/fonts/enc/dvips/kpfonts/k
+pfonts-expert.enc}{d:/texlive/2016/texmf-dist/fonts/enc/dvips/sourcesanspro/a_g
 gs4wk.enc}<d:/texlive/2016/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Bold.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pf
 b><d:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><d:/texlive/
@@ -2744,14 +2793,15 @@ ts/jkpmn8a.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmnc.pf
 b><d:/texlive/2016/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><d:/texlive
 /2016/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><d:/texlive/2016/texmf-di
 st/fonts/type1/public/kpfonts/jkpsyc.pfb><d:/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public
-/wasy2-ps/wasy10.pfb>
-Output written on Stefanica-150QuantInterviewsections.pdf (3 pages, 208168 byte
+1/public/kpfonts/jkpttmn8a.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msam10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/wasy2-ps/
+wasy10.pfb>
+Output written on Stefanica-150QuantInterviewsections.pdf (4 pages, 217110 byte
 s).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 25101 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 25613 words of extra memory for PDF output out of 29859 (max. 10000000)
 

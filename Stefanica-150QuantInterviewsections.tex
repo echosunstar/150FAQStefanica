@@ -30,10 +30,13 @@
 \usepackage{xcolor}
 \usepackage{soul}
 \colorlet{highlightgreen}{green!10}
+\colorlet{highlightgray}{gray!20}
 \sethlcolor{highlightgreen}
 
-
-
+%% for code snippets
+\usepackage{listings}
+\newcommand{\icode}{\texttt}
+\newcommand{\cicode}[1]{\colorbox{highlightgray}{\lstinline[basicstyle=\ttfamily\color{black}]|#1|} }
 
 \DeclareRobustCommand{\hly}[1]{{ 
 		\colorlet{highlightyellow}{Salmon!30}
@@ -758,6 +761,39 @@ p& p & p & 1 \\ p& p & p & 1
 
 \hrule
 \section {C++}
+
+\begin{itemize}
+
+\item \hl{declare an array}
+\begin{itemize}
+\item \cicode{T foo [3]}
+\item \cicode{T bar [] = \{1,2,3\} }
+\item \cicode{int T* baz = new int[3]}
+\end{itemize}
+
+\item \hl{declare an array of pointers}
+\begin{itemize}
+	\item \cicode{T* foo [3]}
+	\item \cicode{T* bar [] = \{\&a,\&b,\&c\} }
+	\item \cicode{int T** baz = new int* [3]}
+\end{itemize}
+
+\item \hl{const pointer to object, const pointer to const object etc}
+\begin{itemize}
+	\item Remember the clockwise and backward rule
+	\item \cicode{T* bar [10]; //} array of 10 pointers to T
+	\item \cicode{char const *chptr;} // pointer to a const char == pointer to a read-only char
+	\item \cicode{char * const chptr;} // const pointer to a char == read-only pointer to a char
+	\item \cicode{char const * const chptr;} // const pointer to a const char == read-only pointer to a read-only char
+\end{itemize}
+
+\item \hl{template functions }
+\begin{itemize}[label={}]
+\item \cicode{template typename <T> }
+\item \cicode{T temp\_sum (T a, T b) return \{a+b;\} } // accepts 2 Ts, return a+b , which is also a T
+\end{itemize}
+
+\end{itemize}
 
 \end{spacing}
 \end{multicols*}
