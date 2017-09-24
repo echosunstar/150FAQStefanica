@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.24)  17 SEP 2017 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.4.24)  24 SEP 2017 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2849,19 +2849,26 @@ jkp/m/n/10 (+20) (\OML/jkp/m/it/10 U[]\OT1/jkp/m/n/10 (+20) )$[] \T1/jkp/m/n/10
  (+20) with $[]\OML/jkp/m/it/10 U[] []
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
+\OML/jkp/m/it/10 corr\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10 N[]; ^^ZN[]\OT1/jk
+p/m/n/10 (+20) ) + \OML/jkp/m/it/10 corr\OT1/jkp/m/n/10 (+20) (\OML/jkp/m/it/10
+ N[]; []N[]\OT1/jkp/m/n/10 (+20) ) =
+ []
+
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 860.
+ mdframed uses option nobreak mdframed on input line 964.
 
 Overfull \vbox (2.89886pt too high) has occurred while \output is active []
 
 
 [4] (./Stefanica-150QuantInterviewsections.aux) ) 
 Here is how much of TeX's memory you used:
- 43473 strings out of 493013
- 983510 string characters out of 6136993
+ 43494 strings out of 493013
+ 983696 string characters out of 6136993
  1250915 words of memory out of 5000000
  46104 multiletter control sequences out of 15000+600000
- 108524 words of font info for 193 fonts, out of 8000000 for 9000
+ 110682 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,96p,10448b,2023s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2016/texmf-dist/fo
@@ -2881,7 +2888,7 @@ st/fonts/type1/public/kpfonts/jkpsyc.pfb><d:/texlive/2016/texmf-dist/fonts/type
 msfonts/symbols/msam10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/wasy2-ps/
 wasy10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/boondox/zxxrl8a.pfb>
-Output written on Stefanica-150QuantInterviewsections.pdf (4 pages, 226828 byte
+Output written on Stefanica-150QuantInterviewsections.pdf (4 pages, 238257 byte
 s).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
